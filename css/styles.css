@@ -183,15 +183,15 @@ color: #2e2f42;
 
 .visually-hidden {
   position: absolute;
-  white-space: nowrap;
   width: 1px;
   height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
   margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  clip-path: inset(100%);
 }
 
 .advantages-list {
@@ -302,13 +302,11 @@ color: #2e2f42;
 
 .container-portfolio {
   padding: 32px 16px;
-  border-bottom: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;
-    border-top: none;
-    padding: 32px 16px;
-    width: 360px;
-    height: 120px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  padding: 32px 16px;
+  width: 360px;
+  height: 120px;
 }
 
 .project-name {
@@ -336,10 +334,15 @@ color: #2e2f42;
   padding: 100px 0;
 }
 
+.logo {
+display: inline-block;
+  margin-bottom: 16px;
+}
 
 
 .footer-logo .logo-part {
   color: #f4f4fd;
+
   display: inline-block;
   margin-bottom: 16px;
 }
