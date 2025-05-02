@@ -125,9 +125,11 @@ a {
 /* hero imaige */
 
 .hero-section {
+  display: flex;
   background-color: #2e2f42;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
+  
+  
 }
 
 .hero-titel {
@@ -137,7 +139,6 @@ a {
   text-align: center;
   color: #fff;
     max-width: 496px;
-    padding: 188px 0;
     margin-bottom: 48px;
    
 }
@@ -154,10 +155,10 @@ a {
     display: block;  
       border-radius: 4px;
       padding: 16px 32px;
-      width: 169px;
       height: 56px;
       min-width: 169px;
       border: none;
+      margin: 0 auto;
      
 }
 
